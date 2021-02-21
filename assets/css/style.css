@@ -67,6 +67,15 @@ a:hover {
     letter-spacing: 1px;
     font-size: 14px;
 }
+.section-one .box-3 {
+    order: 4;
+}
+.section-one .box-4 {
+    order: 3;
+}
+.section-one .box-5 {
+    order: 5;
+}
 
 @media (min-width: 541px) {
     .section-one {
@@ -85,8 +94,11 @@ a:hover {
     .section-one .post-title {
         width: 100%;
     }
+    .section-one .box-3 {
+        order: 3;
+    }
 }
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
     .section-one {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -95,13 +107,12 @@ a:hover {
     }
      
     .section-one .girl {
-        height: auto;
         grid-row: 1 / 3;
         grid-column: 2 / 4; 
         order: 2;
     }
     .girl .post-image .girl-post {
-        height: 110vh;
-        
+        height: 110vh; 
     }
+    
 }
