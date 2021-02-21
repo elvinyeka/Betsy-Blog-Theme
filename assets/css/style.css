@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-one {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+.section-one .post  {
+    height: 700px;
+    padding: 10px;
+}
+.section-one figure {
+    overflow: hidden;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.section-one .post img {
+    width: 100%;
+    object-fit: cover;
+}
